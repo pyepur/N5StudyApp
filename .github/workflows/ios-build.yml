@@ -1,0 +1,33 @@
+name: Build iOS App
+
+# This triggers the Mac every time you push code
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build-ios:
+    # This tells GitHub to rent you a Mac for a few minutes
+    runs-on: macos-latest
+
+    steps:
+      - name: Get the Code
+        uses: actions/checkout@v4
+
+      - name: Install .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Install MAUI iOS Tools
+        run: dotnet workload install maui-ios
+
+      - name: Build the iOS App
+        # This compiles the code into an Apple package
+        run: dotnet publish -f net9.0-ios -c Release
+
+      - name: Upload the Finished App
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-app-package
+          path: bin/Release/net9.0-ios/ios-arm64/publish/
