@@ -1,0 +1,146 @@
+[
+  {
+    "Id": 1000,
+    "SetName": "Kanji Set 1",
+    "Kanji": "先",
+    "Reading": "セン / さき",
+    "English": "先生 (teacher)\n先月 (last month)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1001,
+    "SetName": "Kanji Set 1",
+    "Kanji": "生",
+    "Reading": "セイ、ショウ",
+    "English": "生徒 (student)\n生活 (life)\nたん生日 (birthday)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1002,
+    "SetName": "Kanji Set 1",
+    "Kanji": "学",
+    "Reading": "ガク",
+    "English": "学生 (student)\n学校 (school)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1003,
+    "SetName": "Kanji Set 1",
+    "Kanji": "人",
+    "Reading": "ジン、ニン / ひと",
+    "English": "日本人 (Japanese person)\n外国人 (foreigner)\n大人 (adult)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1004,
+    "SetName": "Kanji Set 1",
+    "Kanji": "国",
+    "Reading": "コク / くに",
+    "English": "外国 (foreign country)\n国 (country)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1005,
+    "SetName": "Kanji Set 1",
+    "Kanji": "男",
+    "Reading": "おとこ",
+    "English": "男の人 (man)\n男の子 (boy)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1006,
+    "SetName": "Kanji Set 1",
+    "Kanji": "女",
+    "Reading": "ジョ / おんな",
+    "English": "女の人 (woman)\n女の子 (girl)\nかの女 (she / girlfriend)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1007,
+    "SetName": "Kanji Set 1",
+    "Kanji": "子",
+    "Reading": "こ",
+    "English": "子ども (child)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1008,
+    "SetName": "Kanji Set 1",
+    "Kanji": "友",
+    "Reading": "とも",
+    "English": "友だち (friend)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1009,
+    "SetName": "Kanji Set 1",
+    "Kanji": "父",
+    "Reading": "ちち",
+    "English": "父 (father)\nお父さん (father - polite)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1010,
+    "SetName": "Kanji Set 1",
+    "Kanji": "母",
+    "Reading": "はは",
+    "English": "母 (mother)\nお母さん (mother - polite)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1011,
+    "SetName": "Kanji Set 1",
+    "Kanji": "名",
+    "Reading": "メイ / な",
+    "English": "有名な (famous)\n名前 (name)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1012,
+    "SetName": "Kanji Set 1",
+    "Kanji": "田",
+    "Reading": "た",
+    "English": "田中さん (Mr./Ms. Tanaka)\n山田さん (Mr./Ms. Yamada)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1013,
+    "SetName": "Kanji Set 1",
+    "Kanji": "山",
+    "Reading": "サン / やま",
+    "English": "ふじ山 (Mt. Fuji)\n山 (mountain)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1014,
+    "SetName": "Kanji Set 1",
+    "Kanji": "語",
+    "Reading": "ゴ",
+    "English": "日本語 (Japanese)\nえい語 (English)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1015,
+    "SetName": "Kanji Set 1",
+    "Kanji": "本",
+    "Reading": "ホン",
+    "English": "本 (book)\n日本 (Japan)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  }
+]

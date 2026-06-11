@@ -1,0 +1,218 @@
+[
+  {
+    "Id": 10,
+    "SetName": "Lesson 2",
+    "Kanji": "名刺",
+    "Reading": "めいし",
+    "English": "business card",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 11,
+    "SetName": "Lesson 2",
+    "Kanji": "カード",
+    "Reading": "カード",
+    "English": "card",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 12,
+    "SetName": "Lesson 2",
+    "Kanji": "手帳",
+    "Reading": "てちょう",
+    "English": "pocket notebook",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 13,
+    "SetName": "Lesson 2",
+    "Kanji": "ノート",
+    "Reading": "ノート",
+    "English": "notebook",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 14,
+    "SetName": "Lesson 2",
+    "Kanji": "辞書",
+    "Reading": "じしょ",
+    "English": "dictionary",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 15,
+    "SetName": "Lesson 2",
+    "Kanji": "新聞",
+    "Reading": "しんぶん",
+    "English": "newspaper",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 16,
+    "SetName": "Lesson 2",
+    "Kanji": "本",
+    "Reading": "ほん",
+    "English": "book",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 17,
+    "SetName": "Lesson 2",
+    "Kanji": "雑誌",
+    "Reading": "ざっし",
+    "English": "magazine",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 18,
+    "SetName": "Lesson 2",
+    "Kanji": "傘",
+    "Reading": "かさ",
+    "English": "umbrella",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 19,
+    "SetName": "Lesson 2",
+    "Kanji": "テレビ",
+    "Reading": "テレビ",
+    "English": "television",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 20,
+    "SetName": "Lesson 2",
+    "Kanji": "時計",
+    "Reading": "とけい",
+    "English": "watch",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 21,
+    "SetName": "Lesson 2",
+    "Kanji": "かばん",
+    "Reading": "かばん",
+    "English": "bag",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 22,
+    "SetName": "Lesson 2",
+    "Kanji": "車",
+    "Reading": "くるま",
+    "English": "car",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 23,
+    "SetName": "Lesson 2",
+    "Kanji": "カメラ",
+    "Reading": "カメラ",
+    "English": "camera",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 24,
+    "SetName": "Lesson 2",
+    "Kanji": "ラジオ",
+    "Reading": "ラジオ",
+    "English": "radio",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 25,
+    "SetName": "Lesson 2",
+    "Kanji": "コンピューター",
+    "Reading": "コンピューター",
+    "English": "computer",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 26,
+    "SetName": "Lesson 2",
+    "Kanji": "コーヒー",
+    "Reading": "コーヒー",
+    "English": "coffee",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 27,
+    "SetName": "Lesson 2",
+    "Kanji": "机",
+    "Reading": "つくえ",
+    "English": "desk",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 28,
+    "SetName": "Lesson 2",
+    "Kanji": "チョコレート",
+    "Reading": "チョコレート",
+    "English": "chocolate",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 29,
+    "SetName": "Lesson 2",
+    "Kanji": "椅子",
+    "Reading": "いす",
+    "English": "chair",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 30,
+    "SetName": "Lesson 2",
+    "Kanji": "鍵",
+    "Reading": "かぎ",
+    "English": "key",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 31,
+    "SetName": "Lesson 2",
+    "Kanji": "鉛筆",
+    "Reading": "えんぴつ",
+    "English": "pencil",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 32,
+    "SetName": "Lesson 2",
+    "Kanji": "ボールペン",
+    "Reading": "ボールペン",
+    "English": "ballpoint pen",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 33,
+    "SetName": "Lesson 2",
+    "Kanji": "シャープペンシル",
+    "Reading": "シャープペンシル",
+    "English": "mechanical pencil",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  }
+]

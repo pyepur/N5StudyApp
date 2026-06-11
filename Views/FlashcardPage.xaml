@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewmodels="clr-namespace:N5StudyApp.ViewModels"
+             xmlns:converters="clr-namespace:N5StudyApp.Converters"
+             x:Class="N5StudyApp.Views.FlashcardPage"
+             Shell.NavBarIsVisible="False"
+             Title="N5 Flashcards">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:DynamicFontSizeConverter x:Key="AutoShrink" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#09090E" Offset="0.0" />
+            <GradientStop Color="#12121A" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Grid Margin="20">
+        
+        <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+            <Label Text="🎉" FontSize="80" HorizontalOptions="Center"/>
+            <Label Text="Deck Complete!" FontSize="32" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+            <Label Text="Great job studying!" TextColor="#9FA8DA" FontSize="18" HorizontalOptions="Center"/>
+            
+            <Button Text="Restart Lesson" 
+                    Command="{Binding ResetProgressCommand}"
+                    BackgroundColor="#3D5AFE"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="16"
+                    Padding="30,15"
+                    Margin="0,20,0,0">
+                <Button.Shadow>
+                    <Shadow Brush="#3D5AFE" Offset="0,8" Radius="15" Opacity="0.5"/>
+                </Button.Shadow>
+            </Button>
+        </VerticalStackLayout>
+
+        <Button Text="← Home"
+                Clicked="OnBackButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                BackgroundColor="#1A1A2E"
+                TextColor="#9FA8DA"
+                FontAttributes="Bold"
+                CornerRadius="12"
+                HeightRequest="40"
+                Padding="15,0"
+                ZIndex="10">
+            <Button.Shadow>
+                <Shadow Brush="#000000" Offset="0,4" Radius="5" Opacity="0.3"/>
+            </Button.Shadow>
+        </Button>
+
+        <Grid IsVisible="{Binding HasCard}">
+            
+            <Border x:Name="LeftSwipeIndicator" 
+                    HorizontalOptions="Start" 
+                    VerticalOptions="Center" 
+                    TranslationX="10"
+                    Opacity="0"
+                    InputTransparent="True"
+                    BackgroundColor="#1AFF5252"
+                    Stroke="#FF5252"
+                    StrokeThickness="1"
+                    Padding="15,20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20" />
+                </Border.StrokeShape>
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="🔄" FontSize="36" HorizontalOptions="Center"/>
+                    <Label Text="Review" FontSize="16" FontAttributes="Bold" TextColor="#FF8A80" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Border>
+
+            <Border x:Name="RightSwipeIndicator" 
+                    HorizontalOptions="End" 
+                    VerticalOptions="Center" 
+                    TranslationX="-10"
+                    Opacity="0"
+                    InputTransparent="True"
+                    BackgroundColor="#1A69F0AE"
+                    Stroke="#69F0AE"
+                    StrokeThickness="1"
+                    Padding="15,20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20" />
+                </Border.StrokeShape>
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="✨" FontSize="36" HorizontalOptions="Center"/>
+                    <Label Text="I knew it!" FontSize="16" FontAttributes="Bold" TextColor="#B9F6CA" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Border>
+
+            <Border x:Name="MainCard"
+                    WidthRequest="340"
+                    HeightRequest="480"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    StrokeThickness="2">
+                
+                <Border.Stroke>
+                    <LinearGradientBrush EndPoint="1,1">
+                        <GradientStop Color="#7C4DFF" Offset="0.0" />
+                        <GradientStop Color="#3D5AFE" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Border.Stroke>
+
+                <Border.Shadow>
+                    <Shadow Brush="#000000" Offset="0,25" Radius="50" Opacity="0.8" />
+                </Border.Shadow>
+
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="1,1">
+                        <GradientStop Color="#2A2A4A" Offset="0.0" />
+                        <GradientStop Color="#16162C" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="32" />
+                </Border.StrokeShape>
+
+                <Border.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnCardPanUpdated" />
+                    <TapGestureRecognizer Tapped="OnCardTapped" />
+                </Border.GestureRecognizers>
+
+                <Grid Padding="30">
+                    <VerticalStackLayout x:Name="FrontLayout" VerticalOptions="Center" Spacing="8">
+                        <Label Text="{Binding CurrentCard.Reading}" 
+                               FontSize="28" 
+                               FontAttributes="Bold"
+                               TextColor="#E040FB" 
+                               HorizontalOptions="Center" />
+                               
+                        <Label Text="{Binding CurrentCard.Kanji}" 
+                               FontSize="{Binding CurrentCard.Kanji, Converter={StaticResource AutoShrink}}" 
+                               LineBreakMode="NoWrap"
+                               FontAttributes="Bold"
+                               TextColor="White" 
+                               HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout x:Name="BackLayout" VerticalOptions="Center" Opacity="0" InputTransparent="True">
+                        <Label Text="{Binding CurrentCard.English}" 
+                               FontSize="24" 
+                               LineHeight="1.5"
+                               FontAttributes="Bold"
+                               TextColor="#81D4FA" 
+                               HorizontalOptions="Center" 
+                               HorizontalTextAlignment="Center"/>
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</ContentPage>

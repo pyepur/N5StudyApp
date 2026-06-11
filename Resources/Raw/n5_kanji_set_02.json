@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1016,
+    "SetName": "Kanji Set 2",
+    "Kanji": "何",
+    "Reading": "ナン / なに",
+    "English": "何時 (what time)\n何時間 (how many hours)\n何 (what)\n何語 (what language)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1017,
+    "SetName": "Kanji Set 2",
+    "Kanji": "時",
+    "Reading": "ジ",
+    "English": "九時 (nine o'clock)\n四時間 (four hours)\n時計 (watch, clock)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1018,
+    "SetName": "Kanji Set 2",
+    "Kanji": "分",
+    "Reading": "フン、ブン",
+    "English": "五分 (five minutes)\n三十分 (thirty minutes)\n半分 (half)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1019,
+    "SetName": "Kanji Set 2",
+    "Kanji": "間",
+    "Reading": "カン / あいだ、ま",
+    "English": "時間 (time)\n一週間 (one week)\nAとBの間 (between A and B)\nこの間 (the other day)\n間に合う (be in time)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1020,
+    "SetName": "Kanji Set 2",
+    "Kanji": "半",
+    "Reading": "ハン",
+    "English": "七時半 (seven-thirty)\n一時間半 (one hour and a half)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1021,
+    "SetName": "Kanji Set 2",
+    "Kanji": "午",
+    "Reading": "ゴ",
+    "English": "午後 (afternoon)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1022,
+    "SetName": "Kanji Set 2",
+    "Kanji": "前",
+    "Reading": "ゼン / まえ",
+    "English": "午前 (morning)\n前 (front)\n名前 (name)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1023,
+    "SetName": "Kanji Set 2",
+    "Kanji": "後",
+    "Reading": "ゴ / あと、うしろ",
+    "English": "午後 (afternoon)\n後で (later, after)\n後ろ (back, behind)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1024,
+    "SetName": "Kanji Set 2",
+    "Kanji": "今",
+    "Reading": "コン / いま",
+    "English": "今月 (this month)\n今週 (this week)\n今 (now)\n今日 (today)\n今年 (this year)\n今朝 (this morning)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1025,
+    "SetName": "Kanji Set 2",
+    "Kanji": "週",
+    "Reading": "シュウ",
+    "English": "先週 (last week)\n来週 (next week)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1026,
+    "SetName": "Kanji Set 2",
+    "Kanji": "年",
+    "Reading": "ネン / とし",
+    "English": "一年 (one year)\n去年 (last year)\n来年 (next year)\n今年 (this year)\n半年 (half a year)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1027,
+    "SetName": "Kanji Set 2",
+    "Kanji": "毎",
+    "Reading": "マイ",
+    "English": "毎年 (every year)\n毎日 (every day)\n毎月 (every month)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  }
+]

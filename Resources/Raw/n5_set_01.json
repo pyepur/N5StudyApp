@@ -1,0 +1,83 @@
+[
+  {
+    "Id": 1,
+    "SetName": "Lesson 1",
+    "Kanji": "会社員",
+    "Reading": "かいしゃいん",
+    "English": "company employee",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 2,
+    "SetName": "Lesson 1",
+    "Kanji": "銀行員",
+    "Reading": "ぎんこういん",
+    "English": "banker",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 3,
+    "SetName": "Lesson 1",
+    "Kanji": "先生",
+    "Reading": "せんせい",
+    "English": "teacher",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 4,
+    "SetName": "Lesson 1",
+    "Kanji": "生徒",
+    "Reading": "せいと",
+    "English": "student",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 5,
+    "SetName": "Lesson 1",
+    "Kanji": "エンジニア",
+    "Reading": "エンジニア",
+    "English": "engineer",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 6,
+    "SetName": "Lesson 1",
+    "Kanji": "病院",
+    "Reading": "びょういん",
+    "English": "hospital",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 7,
+    "SetName": "Lesson 1",
+    "Kanji": "医者",
+    "Reading": "いしゃ",
+    "English": "doctor",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 8,
+    "SetName": "Lesson 1",
+    "Kanji": "大学",
+    "Reading": "だいがく",
+    "English": "university",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  },
+  {
+    "Id": 9,
+    "SetName": "Lesson 1",
+    "Kanji": "研究者",
+    "Reading": "けんきゅうしゃ",
+    "English": "researcher",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-10T00:00:00Z"
+  }
+]

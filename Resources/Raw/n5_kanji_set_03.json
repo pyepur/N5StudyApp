@@ -1,0 +1,137 @@
+[
+  {
+    "Id": 1028,
+    "SetName": "Kanji Set 3",
+    "Kanji": "少",
+    "Reading": "すこ、すく",
+    "English": "少し (a little)\n少ない (few, a little)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1029,
+    "SetName": "Kanji Set 3",
+    "Kanji": "多",
+    "Reading": "おお",
+    "English": "多い (many, a lot)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1030,
+    "SetName": "Kanji Set 3",
+    "Kanji": "小",
+    "Reading": "ショウ / ちい",
+    "English": "小学校 (elementary school)\n小さい (small)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1031,
+    "SetName": "Kanji Set 3",
+    "Kanji": "大",
+    "Reading": "ダイ、タイ / おお",
+    "English": "大学 (college)\n大変な (terrible)\n大切な (precious, important)\n大きい (big)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1032,
+    "SetName": "Kanji Set 3",
+    "Kanji": "安",
+    "Reading": "アン / やす",
+    "English": "安全な (safe)\n安心する (feel relieved)\n安い (cheap)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1033,
+    "SetName": "Kanji Set 3",
+    "Kanji": "高",
+    "Reading": "コウ / たか",
+    "English": "高校 (high school)\n高い (expensive, high)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1034,
+    "SetName": "Kanji Set 3",
+    "Kanji": "新",
+    "Reading": "シン / あたら",
+    "English": "新聞 (newspaper)\n新しい (new)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1035,
+    "SetName": "Kanji Set 3",
+    "Kanji": "古",
+    "Reading": "ふる",
+    "English": "古い (old)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1036,
+    "SetName": "Kanji Set 3",
+    "Kanji": "早",
+    "Reading": "はや",
+    "English": "早い (early)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1037,
+    "SetName": "Kanji Set 3",
+    "Kanji": "長",
+    "Reading": "チョウ / なが",
+    "English": "社長 (president)\n長い (long)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1038,
+    "SetName": "Kanji Set 3",
+    "Kanji": "円",
+    "Reading": "エン",
+    "English": "円 (round / yen)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1039,
+    "SetName": "Kanji Set 3",
+    "Kanji": "校",
+    "Reading": "コウ",
+    "English": "学校 (school)\n校長 (school principal)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1040,
+    "SetName": "Kanji Set 3",
+    "Kanji": "社",
+    "Reading": "シャ",
+    "English": "会社 (company)\n社員 (employee)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1041,
+    "SetName": "Kanji Set 3",
+    "Kanji": "中",
+    "Reading": "チュウ、ジュウ / なか",
+    "English": "中学校 (junior high school)\n一日中 (all day)\n中 (inside)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  },
+  {
+    "Id": 1042,
+    "SetName": "Kanji Set 3",
+    "Kanji": "聞",
+    "Reading": "ブン / き",
+    "English": "新聞 (newspaper)\n聞く (listen)\n聞こえる (hear)",
+    "MasteryLevel": 0,
+    "NextReviewDate": "2026-06-11T00:00:00Z"
+  }
+]

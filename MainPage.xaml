@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="N5StudyApp.MainPage"
+             Shell.NavBarIsVisible="False"
+             Title="Home">
+
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#09090E" Offset="0.0" />
+            <GradientStop Color="#12121A" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="380">
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="15" Margin="0,0,0,25">
+                
+                <Border BackgroundColor="#E040FB"
+                        StrokeThickness="0"
+                        WidthRequest="64"
+                        HeightRequest="64"
+                        VerticalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="18" />
+                    </Border.StrokeShape>
+                    <Border.Shadow>
+                        <Shadow Brush="#E040FB" Offset="0,4" Radius="10" Opacity="0.4"/>
+                    </Border.Shadow>
+                    <Label Text="N5" TextColor="White" FontAttributes="Bold" FontSize="32" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </Border>
+                
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label Text="JLPT" FontSize="42" FontAttributes="Bold" TextColor="White" CharacterSpacing="2"/>
+                    <Label Text="MASTERY" FontSize="14" TextColor="#8A8A9D" CharacterSpacing="6" Margin="0,-5,0,0"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+
+            <Label Text="Vocabulary" FontSize="16" FontAttributes="Bold" TextColor="#8A8A9D" Margin="0,0,0,-5"/>
+
+            <Button Text="Lesson 1"
+                    CommandParameter="n5_set_01.json"
+                    Clicked="OnDeckButtonClicked"
+                    HeightRequest="65"
+                    BackgroundColor="#1A1A2E"
+                    BorderColor="#3D5AFE"
+                    BorderWidth="1"
+                    TextColor="#B39DDB"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    CornerRadius="16"/>
+
+            <Button Text="Lesson 2"
+                    CommandParameter="n5_set_02.json"
+                    Clicked="OnDeckButtonClicked"
+                    HeightRequest="65"
+                    BackgroundColor="#1A1A2E"
+                    BorderColor="#3D5AFE"
+                    BorderWidth="1"
+                    TextColor="#B39DDB"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    CornerRadius="16"/>
+
+            <Button Text="Study All Vocab"
+                    CommandParameter="ALL"
+                    Clicked="OnDeckButtonClicked"
+                    HeightRequest="65"
+                    BackgroundColor="#3D5AFE"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    CornerRadius="16"
+                    Margin="0,5,0,0">
+                <Button.Shadow>
+                    <Shadow Brush="#3D5AFE" Offset="0,8" Radius="15" Opacity="0.5"/>
+                </Button.Shadow>
+            </Button>
+
+            <BoxView HeightRequest="1" Color="#2A2A4A" Margin="0,15"/>
+
+            <Label Text="Kanji" FontSize="16" FontAttributes="Bold" TextColor="#8A8A9D" Margin="0,0,0,-5"/>
+
+            <Button Text="Master Kanji Deck" 
+                    CommandParameter="KANJI_ALL" 
+                    Clicked="OnDeckButtonClicked" 
+                    HeightRequest="65" 
+                    BackgroundColor="#FFB300" 
+                    TextColor="#4E342E" 
+                    FontAttributes="Bold" 
+                    FontSize="20" 
+                    CornerRadius="16">
+                <Button.Shadow>
+                    <Shadow Brush="#FFB300" Offset="0,8" Radius="15" Opacity="0.4"/>
+                </Button.Shadow>
+            </Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
